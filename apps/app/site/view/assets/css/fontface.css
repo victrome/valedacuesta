@@ -1,0 +1,18 @@
+@font-face {font-family: "TESCO Modern";
+    src: url("?f=fonts/TESCO Modern.eot"); /* IE9*/
+    src: url("?f=fonts/TESCO Modern.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("?f=fonts/TESCO Modern.woff2") format("woff2"), /* chrome、firefox */
+    url("?f=fonts/TESCO Modern.woff") format("woff"), /* chrome、firefox */
+    url("?f=fonts/TESCO Modern.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("?f=fonts/TESCO Modern.svg#TESCO Modern") format("svg"); /* iOS 4.1- */
+  }
+
+  @font-face {font-family: "TESCO Modern";
+    src: url("?f=fonts/TESCOModern-Bold.eot"); /* IE9*/
+    src: url("?f=fonts/TESCOModern-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("?f=fonts/TESCOModern-Bold.woff2") format("woff2"), /* chrome、firefox */
+    url("?f=fonts/TESCOModern-Bold.woff") format("woff"), /* chrome、firefox */
+    url("?f=fonts/TESCOModern-Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("?f=fonts/TESCOModern-Bold.svg#TESCO Modern-Bold") format("svg"); /* iOS 4.1- */
+    font-weight: 700;
+  }

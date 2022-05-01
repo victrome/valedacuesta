@@ -1,0 +1,1073 @@
+html, body {
+    font-family: "TESCO Modern";
+}
+
+.bg-blue {
+    background-color: #00539F!important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.bg-light {
+    background-color: #F5F5F5!important;
+}
+
+.border-radius-15-top {
+    border-radius: 15px 15px 0px 0px;
+}
+.border-radius-15-bottom {
+    border-radius: 0px 0px 15px 15px;
+}
+.text-red {
+    color: #D7192A;
+}
+.text-blue {
+    color: #00539F;
+}
+.opacity-low {
+    opacity: 0.4;
+}
+.opacity-high {
+    opacity: 1;
+}
+.btn-line {
+  outline: none;
+  background: white;
+  border: 1.8px solid #00539F;
+  padding: 12px 100px;
+  color: #00539F;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+.btn-line:hover {
+  background-color: #E7EFF3;
+}
+.logo-center {
+    position: absolute;
+    width: 97px;
+    height: 29px;
+    margin-left: 50%;
+    left: -48.5px;
+}
+.hero {
+    width: 963px;
+    height: 378px;
+    background-image: url('/assets/images/banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top:60px;
+    margin-bottom:20px;
+}
+.hero .middle {
+    display: block;
+    width: 50%;
+    padding-left: 40px;
+}
+.hero .middle h3 {
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.hero .middle p {
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.mobile-action {
+    background: #00539F;
+    text-align: center;
+    color: white;
+    display:none;
+}
+.mobile-action h4{
+    padding-top:20px;
+    padding-bottom:15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.mobile-action p{
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom:0px;
+}
+.mobile-action button {
+    width:80%;
+    color:#00539F;
+    background: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.mobile-action button .arrow {
+    margin-left: 12px;
+    margin-top: 7px;
+    height: 12px;
+    width: 7.5px;
+    display: inline;
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%2300539F'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Firefox */
+.mobile-scrollable {
+  scrollbar-width: 0px;
+  scrollbar-color: #00569f #e8e8e8;
+}
+
+/* Chrome, Edge, and Safari */
+.mobile-scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile-scrollable::-webkit-scrollbar-thumb {
+    display: none;
+}
+.hide-mobile {
+    display:inherit;
+}
+.show-mobile {
+  display:none;
+}
+.hide-tablet {
+  display:inherit;
+}
+.show-tablet {
+  display:none;
+}
+.slider {
+    display:none;
+}
+.slider-right, .slider-left {
+    background: #00539F;
+    border-radius:50px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    float: right;
+    margin-top:10px;
+    display: none;
+}
+.slider-right:disabled, .slider-left:disabled {
+    opacity: 0.5;
+}
+.slider-left {
+    margin-right: 10px;
+}
+
+.btn-outline-tesco {
+    color: #00539F;
+    border-color: #00539F;
+    border-radius: 20px;
+    padding: 5px 30px;
+    font-size: 14px;
+}
+.btn-outline-tesco:hover {
+  background: #E7EFF3;
+}
+.how-it-works {
+    min-width: 100%;
+    overflow-x: auto;
+}
+
+.how-it-works h3 {
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.5px;
+    line-height: 27px;
+    color: #00539F;
+    margin-bottom: 15px;
+}
+
+.how-it-works .img {
+    max-width: 240px;
+    height: 144px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.how-it-works p {
+    margin-top:10px;
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.how-it-works .img.hiw1 {
+    background-image: url('?p=images/hiw1.png');
+}
+.how-it-works .img.hiw2 {
+    background-image: url('?p=images/hiw2.png');
+}
+.how-it-works .img.hiw3 {
+    background-image: url('?p=images/hiw3.png');
+}
+
+.mobile-header h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #00539F;
+  padding: 10px 70px 2px 70px;
+}
+.mobile-header p{
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #666666;
+  padding-bottom:10px;
+}
+.tablet-header {
+  text-align: center;
+  padding-bottom:50px;
+  padding-top:30px;
+}
+.tablet-header h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22.5px;
+  line-height: 27px;
+  color: #00539F;
+}
+.tablet-header p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #666666;
+  padding-bottom:10px;
+  width:380px;
+  margin-left:auto;
+  margin-right: auto;
+}
+.tablet-header button {
+  width:288px;
+  margin-left:auto;
+  margin-right: auto;
+  color:white;
+  background: #00539F;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.tablet-header button .arrow {
+  margin-left: 12px;
+  margin-top: 7px;
+  height: 12px;
+  width: 7.5px;
+  display: inline;
+  position: absolute;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tablet-header button:hover {
+  background: #E7EFF3;
+}
+.calculator .header h1 {
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #00539F;
+    padding-top:60px;
+    padding-bottom: 10px;
+}
+
+.calculator .header p {
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 20px;
+}
+
+.calculator h2 {
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.5px;
+    line-height: 27px;
+    text-align: center;
+    color: #00539F;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.calculator .blue-warning {
+    width: 100%;
+    min-height: 52px;
+    background: #00539F;
+    border-radius: 4px;
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 60px;
+}
+.calculator .separator {
+    width: 110%;
+    margin-left: -5%;
+}
+
+.calculator .separator2 {
+    width: 90%;
+    margin-left: 5%;
+}
+.calculator .contribution {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.calculator .contribution h3 {
+    display: inline;
+}
+.chart-box {
+    box-shadow: 10px 10px 16px -11px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 10px 10px 16px -11px rgba(0,0,0,0.56);
+    -moz-box-shadow: 10px 10px 16px -11px rgba(0,0,0,0.56);
+    border-radius: 9px;
+    padding:15px;
+    background: white;
+}
+.chart-box .box-title {
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #333333;
+}
+.chart-box .box-hr {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:3px;
+    margin-bottom: 20px;
+}
+/*Boostrap overrides*/
+.navbar {
+  border-bottom: 2px solid #e8e8e8;
+}
+.modal-body h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #666666;
+}
+.modal-body p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666666;
+}
+.modal-body li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666666;
+}
+.modal-footer {
+  border-top: 0px solid #e8e8e8;
+  justify-content: center;
+}
+.modal-size {
+  max-width:800px;
+}
+.modal-height {
+  max-height: 600px;
+  overflow-y: scroll;
+  scrollbar-width: auto;
+  scrollbar-color: #00539f #ffffff;
+}
+
+.modal-height::-webkit-scrollbar {
+  width: 10px;
+}
+
+.modal-height::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.modal-height::-webkit-scrollbar-thumb {
+  background-color: #00539f;
+  border-radius: 10px;
+  border: 0px solid #cccccc;
+}
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border: none;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 69, 80, 1.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2.5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.modal-header {
+    background: #00539F;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    padding: 11px 10px;
+}
+.modal-title {
+  width:100%;
+}
+.pb-sm-4 {
+  padding-bottom: 0px !important;
+}
+/*end bootstrap override*/
+/*input*/
+.info-input {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-top: -50px;
+  padding-top: 10px;
+}
+.info-input:before {
+    content: "!";
+    width: 26px;
+    height: 26px;
+    background:#00539F;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+}
+.label-bold {
+    font-family: TESCO Modern;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/****  floating-Lable style start ****/
+.floating-label { 
+    position:relative; 
+    margin-bottom:20px; 
+  }
+  .floating-input[type="text"],.floating-input[type="number"] {
+      padding-left:10px;
+  }
+  .floating-input , .floating-select {
+    font-size:18px;
+    padding:4px 4px;
+    display:block;
+    width:100%;
+    height:53px;
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-weight: 700;
+    padding-top:13px;
+  }
+  .floating-input.dob , .floating-select.dob {
+    text-align: center;
+    padding:0px;
+    padding-left: 10px;
+    padding-top:10px;
+    font-size: 16px;
+    height:46px;
+    
+}
+  .floating-input.dob , .floating-select.dob small {
+      font-size: 12px;
+  }
+  .floating-input:focus , .floating-select:focus {
+       outline:none;
+  }
+  
+  .floating-label label {
+    color:#666666; 
+    font-size:16px;
+    font-weight:700;
+    position:absolute;
+    pointer-events:none;
+    top:16px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+    padding-left:10px;
+  }
+  .floating-label label.dob {
+    padding-left:0px;
+    width: 100%;
+    text-align: center;
+    top:10px;
+  }
+  
+  .floating-input:focus ~ label, .floating-input:not(:placeholder-shown) ~ label {
+    top:2px;
+    font-size:14px;
+    color:#666666;
+  }
+  
+  .floating-select:focus ~ label , .floating-select:not([value=""]):valid ~ label {
+    top:2px;
+    font-size:14px;
+    color:#666666;
+  }
+
+  .floating-input.dob:focus ~ label, .floating-input.dob:not(:placeholder-shown) ~ label {
+    top:2px;
+    font-size:12px;
+    color:#666666;
+  }
+  
+  .floating-select.dob:focus ~ label , .floating-select.dob:not([value=""]):valid ~ label {
+    top:2px;
+    font-size:12px;
+    color:#666666;
+  }
+  
+  /* active state */
+  .floating-input:focus ~ .bar:before, .floating-input:focus ~ .bar:after, .floating-select:focus ~ .bar:before, .floating-select:focus ~ .bar:after {
+    width:50%;
+  }
+  
+  *, *:before, *:after {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  
+  .floating-textarea {
+     min-height: 30px;
+     max-height: 260px; 
+     overflow:hidden;
+    overflow-x: hidden; 
+  }
+  
+  /* highlighter */
+  .highlight {
+    position:absolute;
+    height:50%; 
+    width:100%; 
+    top:15%; 
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+  }
+  
+  /* active state */
+  .floating-input:focus ~ .highlight , .floating-select:focus ~ .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+  }
+  
+  /* animation */
+  @-webkit-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  
+  /****  floating-Lable style end ****/
+
+  /** Radio **/
+
+
+.radio [type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.radio [type="radio"]:checked + label
+{
+    position: relative;
+    padding-left: 45px;
+    padding-top: 8px;
+    cursor: pointer;
+    line-height: 20px;
+    font-weight: 700;
+    display: inline-block;
+    color: #666;
+    border: 1px solid #D3E2E9;
+    background-color: #D3E2E9;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 104%;
+    height: 38px;
+    font-weight: 700;
+}
+.radio [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 45px;
+    padding-top: 8px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+    border: 1px solid #D3E2E9;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 104%;
+    height: 38px;
+    font-weight: 700;
+}
+.radio [type="radio"]:checked + label:before,
+.radio [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 13px;
+    top: 9px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #666;
+    border-radius: 100%;
+    background: #fff;
+}
+.radio [type="radio"]:checked + label:after,
+.radio [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #666666;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.radio [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.radio [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/* input range */
+.slider-wrapper {
+  max-height: 50px;
+}
+.fluid-slider:disabled {
+  opacity: 0.5;
+}
+.fluid-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: rgb(2,85,159);
+    background: linear-gradient(90deg, rgba(2,85,159,1) 0%, rgba(91,181,124,1) 80%);
+    border-radius: 1px;
+    margin: 0;
+    position: relative;
+  }
+  .fluid-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    width: 10px;
+    height: 20px;
+    border-radius: 0;
+    cursor: pointer;
+    background: #fff;
+    opacity: 0.65;
+    border: 4px solid #00539F;
+    position: relative;
+    transition: all ease-in-out 0.05s;
+  }
+  .fluid-slider::-moz-range-thumb {
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    opacity: 0.65;
+    border: 4px solid #00539F;
+    position: relative;
+    transition: all ease-in-out 0.05s;
+  }
+  .fluid-slider:focus {
+    outline: none;
+  }
+  .fluid-slider:active::-webkit-slider-thumb {
+    background: transparent;
+  }
+  .fluid-slider:active::-moz-range-thumb {
+    background: transparent;
+  }
+  .fluid-slider:active + .range-label {
+    visibility: visible;
+    opacity: 1;
+    top: -69px;
+  }
+  .fluid-slider:before, .fluid-slider::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    padding: 0.5em;
+    background: #d0d0d0;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 2px;
+  }
+  .fluid-slider:before {
+    left: -50px;
+    content: attr(min);
+  }
+  .fluid-slider:after {
+    right: -50px;
+    content: attr(max);
+  }
+  
+  .range-label {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    top: -65px;
+    visibility: hidden;
+    opacity: 0;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8em;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    border: 6px solid #00539F;
+    left: attr(value)20;
+    transition: all ease-in 0.05s;
+    z-index: 99999;
+  }
+  .range-label:after {
+    position: absolute;
+    content: "";
+    top: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 0px;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle, white 50%, transparent 50%), radial-gradient(circle, white 50%, transparent 50%), linear-gradient(#00539F, #00539F);
+    background-size: 180% 100%, 180% 100%, 100% 100%;
+    background-position: 150% 0%, -50% 0%, 100% 100%;
+  }
+  
+  ::-moz-range-track {
+    background: rgb(2,85,159);
+    background: linear-gradient(90deg, rgba(2,85,159,1) 0%, rgba(91,181,124,1) 100%);
+    border: 0;
+  }
+  
+  input::-moz-focus-inner,
+  input::-moz-focus-outer {
+    border: 0;
+  }
+
+  /* mobile Scroll input*/
+  input[type=range].slider {
+    width: 100%;
+    background-color: transparent;
+    -webkit-appearance: none;
+  }
+  input[type=range].slider:focus {
+    outline: none;
+  }
+  input[type=range].slider::-webkit-slider-runnable-track {
+    background: #e2e2e2;
+    border: 0;
+    width: 100%;
+    height: 15px;
+    border-radius:10px;
+    cursor: pointer;
+  }
+  input[type=range].slider::-webkit-slider-thumb {
+    margin-top: 2px;
+    width: 33%;
+    height: 11px;
+    background: #00539f;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  input[type=range].slider:focus::-webkit-slider-runnable-track {
+    background: #fffff0;
+  }
+  input[type=range].slider::-moz-range-track {
+    background: #ffffd6;
+    border: 0;
+    width: 100%;
+    height: 18px;
+    cursor: pointer;
+  }
+  input[type=range].slider::-moz-range-thumb {
+    width: 49px;
+    height: 9px;
+    background: #00539f;
+    border: 1.9px solid rgba(0, 30, 0, 0.57);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=range].slider::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 0 0;
+    color: transparent;
+    width: 100%;
+    height: 18px;
+    cursor: pointer;
+  }
+  input[type=range].slider::-ms-fill-lower {
+    background: #ffffbd;
+    border: 0;
+  }
+  input[type=range].slider::-ms-fill-upper {
+    background: #ffffd6;
+    border: 0;
+  }
+  input[type=range].slider::-ms-thumb {
+    width: 49px;
+    height: 9px;
+    background: #00539f;
+    border: 1.9px solid rgba(0, 30, 0, 0.57);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+    /*Needed to keep the Edge thumb centred*/
+  }
+  input[type=range].slider:focus::-ms-fill-lower {
+    background: #ffffd6;
+  }
+  input[type=range].slider:focus::-ms-fill-upper {
+    background: #fffff0;
+  }
+
+  /*spinner*/
+  @keyframes spinner {
+    to {transform: rotate(360deg);}
+  }
+  .spinner-background {
+      overflow: hidden;
+  }
+  .spinner {
+      position: absolute;
+      width: 100%;
+      height:100%;
+      background: rgba(238, 238, 238, 0.534);
+      z-index: 99999;
+      
+  } 
+  .spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border-top: 7px solid #07d;
+    border-right: 7px solid transparent;
+    animation: spinner .6s linear infinite;
+  }
+
+
+  /*mobile*/
+  @media only screen and (max-width: 767px) {
+    .header-info .container {
+      width: 100%;
+      max-width: 100%;
+    }
+    .hero {
+        width: 100%;
+        height: 175px;
+        background-image: url('?p=images/banner.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left top;
+        display: flex;
+        align-items: center;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .hero .middle {
+        display: block;
+        width: 50%;
+        padding-left: 10px;
+    }
+    .hero .middle h3 {
+        font-family: TESCO Modern;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .hero .middle p {
+        display:none;
+    }
+    .mobile-action {
+        display: block;
+    }
+    .mobile-scrollable {
+        width:100%;
+        overflow-x: scroll;
+    }
+    .hide-mobile {
+        display:none;
+    }
+    .show-mobile {
+      display:initial;
+    }
+    .slider {
+        display:initial;
+    }
+    .slider-right, .slider-left {
+        display:initial;
+    }
+    .border-width-mobile {
+        margin-left: 3%;
+        width:94%;
+        border-radius: 15px;
+        max-width: 94%;
+    }
+    .full-width-mobile {
+        background:#F5F5F5 !important;
+        border-radius: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .how-it-works {
+        min-width: 900px;
+        overflow-x: auto;
+    }
+    .how-it-works .col-4{
+      width:260px;
+    }
+    .btn-outline-tesco {
+        padding: 3px 20px;
+        font-size: 12px;
+    }
+    .modal-height {
+      max-height: 450px;
+    }
+    .modal-size {
+      max-width: 90%;
+      margin-left:5%;
+    }
+    .calculator .blue-warning {
+      padding:10px 15px;
+    }
+    .calculator .contribution {
+      padding-bottom: 25px;
+    }
+    .chart-box {
+      margin-bottom: 20px;
+    }
+    .pb-sm-4 {
+      padding-bottom: 20px !important;
+    }
+    .mt-3 {
+      margin-top:0px !important;
+    }
+    .mt-4 {
+      margin-top:10px !important;
+    }
+  }
+  /*tablet*/
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-info .container {
+      width: 100%;
+      max-width: 100%;
+    }
+    .header-info .container .row .hero {
+      height:385px;
+      width:100%;
+      margin-top:0px;
+      background-size: cover;
+    }
+    .how-it-works {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+    }
+    .full-width-mobile {
+      background:#F5F5F5 !important;
+      border-radius: 0px !important;
+      padding-bottom: 0px !important;
+    }
+    .full-width-mobile .container {
+      max-width: 100%;
+      width:100%;
+    }
+    .chart-box {
+      margin-bottom: 25px;
+    }
+    .hide-tablet {
+      display:none;
+    }
+    .show-tablet {
+      display:block;
+    }
+  }
